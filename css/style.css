@@ -1,0 +1,81 @@
+/* problem 1*/
+body{
+    background-color: #f2f2f2;
+    padding: 0 2em;
+}
+
+/*p roblem2 */
+h1,h2,h3{
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+/* problem3 */
+p{
+    margin: .5em 0;
+}
+
+/*  problem4 */
+h1 + p {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3 + p {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* problem5 */
+div > header{
+    margin: 1em 0;
+}
+
+/* problem6 */
+h2{
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+}
+
+/* problem7 */
+header:p {
+    font-size: 1.25rem;
+}
+
+/* problem8 */
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* problem9 */
+a:link[rel=external] {
+    color: purple;
+}
+
+/* problem10 */
+#experience>:first-of-type{
+    border-bottom: 2px dashed #ccc;
+}
+
+/*problem11*/
+#main > section{
+    margin-bottom: 3rem;
+}
+
+/* problem12*/
+h2 ~ p strong:first-of-type{
+    color: purple;
+}
+
+/* problem13*/
+li:nth-child(2){
+    color: purple;
+}
+
+/* problem14 */
+dl div:last-of-type{
+    background-color: #ccc;
+}
